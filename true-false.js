@@ -43,7 +43,7 @@ else{
     console.log("condition is false");
 }
 
-const name3 = ""; //Empty string
+const name3 = ""; //Empty string; false
 if(name3){
     console.log("condition is true");
 }                                           
