@@ -11,3 +11,16 @@ for (let i = 0; i < students.length; i++) {
     output.push(friendsName);
 }
 console.log(output);
+
+
+const names = students.map(s => s.name);
+console.log(names);
+
+const id= students.map(s => s.id );
+console.log(id);
+
+const biggerId = students.filter( s => s.id > 40 );
+console.log(biggerId);
+
+const biggerOne = students.find( s => s.id > 40 );
+console.log(biggerOne);
