@@ -4,6 +4,8 @@ const students = [
     { id: 41, name: 'Ishrat' },
     { id: 71, name: 'Abdullah' }
 ];
+
+// Using for loop
 const output = [];
 for (let i = 0; i < students.length; i++) {
     const element = students[i];
@@ -12,7 +14,7 @@ for (let i = 0; i < students.length; i++) {
 }
 console.log(output);
 
-
+// Advanced way- map-filter
 const names = students.map(s => s.name);
 console.log(names);
 
